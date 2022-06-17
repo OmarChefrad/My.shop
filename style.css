@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    width: 40rem;
+    height: 15rem;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    font-family: "Inconsolata", monospace;
+    font-family: "Manrope", sans-serif;
+    font-family: "PT Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+svg {
+    margin-right: 1rem;
+}
+
+button {
+    width: 8rem;
+    height: 4rem;
+    border-radius: 1.2rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #4f2626;
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    cursor: pointer;
+    select: none;
+}
+
+.cookie-title {
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.cookie-subtitled {
+    font-size: bold;
+}
